@@ -55,6 +55,10 @@
 	transition: all 0.3s ease-out;
 }
 
+.gray {
+	background-color: #D3D3D3 !important;
+}
+
 .drop-area {
 	position: fixed;
 	top: 50%;
@@ -112,11 +116,11 @@
 }
 
 .drop-area__item::before {
-	content: '\f01c';
+	content: '\f164';
 }
 
 .drop-area__item:nth-child(2)::before {
-	content: '\f187';
+	content: '\f165';
 }
 
 .drop-feedback.drop-area__item::before {
